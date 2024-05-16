@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <main>
+    <header>
         <!--navbar-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -24,7 +24,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="overnightstay.html">Overnight Stay</a>
+                            <a class="nav-link active" aria-current="page" href="overnightstay.html">Overnight
+                                Stay</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="dining.html">Dining</a>
@@ -32,12 +33,99 @@
                 </div>
             </div>
         </nav>
-        
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Overnight Stay</h1>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class=" col-2">
+                    <label for="principalLoanTextBox" class="col-form-label">Name:</label>
+                </div>
+                <div class="col-3">
+                    <div class="input-group">
+                        <input id="principalLoanTextBox" class="form-control form-control-sm" type="text" />
+                    </div>
+                </div>
+            </div>
 
+            <div class="row mt-4">
+                <div class=" col-2">
+                    <label class="col-form-label">Email address:</label>
+                </div>
+                <div class="col-3">
+                    <div class="input-group">
+                        <input id="interestRateTextBox" class="form-control form-control-sm" type="text" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-2">
+                    <form action="/action_page.php">
+                        <label for="birthday">Check-In Date:</label>
+                </div>
+                <div class="col-3">
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                </form>
+            </div>
+
+            <div class="row mt-4">
+                <div class=" col-2">
+                    <label for="principalLoanTextBox" class="col-form-label">Number of Nights:</label>
+                </div>
+                <div class="col-3">
+                    <div class="input-group">
+                        <input id="principalLoanTextBox" class="form-control form-control-sm" type="text" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class=" col-2">
+                    <label class="col-form-label">Room Type:</label>
+                </div>
+                <div class="col-3">
+                    <input type="radio" id="queenRadio"> Queen Suite
+                </div>
+                <div class="col-3">
+                    <input type="radio" id="kingRadio"> King Suite
+                </div>
+                <div class="col-4">
+                    <input type="radio" id="kingRadio"> 2-Bedroom Suite
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-2">
+                    <form action="/action_page.php">
+                        <label for="birthday">Number of Adults:</label>
+                </div>
+                <div class="col-3">
+                    <div class="input-group">
+                        <input id="interestRateTextBox" class="form-control form-control-sm" type="text" />
+                    </div>
+                </div>
+                <div class="col-2">
+                    <form action="/action_page.php">
+                        <label for="birthday">Number of Children:</label>
+                </div>
+                <div class="col-3">
+                    <div class="input-group">
+                        <input id="interestRateTextBox" class="form-control form-control-sm" type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 
+    <script src="scripts/overnightstay.js"></script>
 
 </body>
 
